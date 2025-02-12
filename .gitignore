@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# IDE and editor files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Coverage directory used by tools like Istanbul
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment variables
+.env
+
+# Yarn integrity file
+.yarn-integrity
+
+# Temporary files
+tmp/
+temp/
