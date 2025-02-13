@@ -5,6 +5,6 @@ export default defineConfig({
   plugins: [react()],
   base: '/github-repo-search/',
   build: {
-    outDir: 'docs', 
+    outDir: 'docs',
   },
 })
