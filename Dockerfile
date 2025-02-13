@@ -23,7 +23,7 @@ RUN yarn build
 FROM nginx:alpine
 
 # Copy the built files from the previous build stage to the Nginx HTML directory
-COPY --from=build /app/dist /usr/share/nginx/html
+COPY --from=build /app/docs /usr/share/nginx/html
 
 # Expose port 80 for serving the application
 EXPOSE 80
